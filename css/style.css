@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 150vh;
+}
+
+section.game {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+}
+
+.game h1 {
+    text-align: center;
+    flex-basis: 100%;
+    margin: 30px 0;
+    padding: 30px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.select {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.select h2 {
+    flex-basis: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+.select .images {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    width: 700px;
+}
+
+.images img {
+
+    width: 200px;
+    cursor: pointer;
+}
+
+button.start {
+
+    flex-basis: 30%;
+    margin-top: 50px;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #fff;
+    border: 2px solid black;
+    transition: .3s;
+    cursor: pointer;
+}
+
+button.start:hover {
+    background-color: #000;
+    color: white;
+}
+
+div.panels {
+    flex-basis: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.panels span {
+    font-weight: bold;
+}
+
+.panels h3 {
+    margin: 20px 0;
+}
+
+.panel-left,
+.panel-right {
+    flex-basis: 45%;
+    text-align: center;
+}
+
+.whoWin {
+    font-size: 30px;
+    font-weight: bold;
+}
